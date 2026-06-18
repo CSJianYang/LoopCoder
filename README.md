@@ -4,6 +4,7 @@
   🤗 <a href="https://huggingface.co/Multilingual-Multimodal-NLP/LoopCoder-V2">HuggingFace</a>
   &nbsp;|&nbsp; 📄 <a href="https://arxiv.org/abs/2606.18023">arXiv:2606.18023</a>
   &nbsp;|&nbsp; 💻 <a href="https://github.com/CSJianYang/LoopCoder">GitHub</a>
+  &nbsp;|&nbsp; ✅ <a href="https://modelscope.cn/models/Multilingual-Multimodal-NLP/LoopCoder-V2">ModelScope</a>
 </p>
 
 > **TL;DR.** For Parallel Loop Transformers (PLT), *more looping is not better*. A 7B coder that loops just **once more than usual** (two passes total) lifts **SWE-bench Verified from 43.0 → 64.4**, while three or more loops *regress*. We explain this with a **gain–cost view** of looping and provide diagnostics for picking the loop count without brute-force sweeps.
